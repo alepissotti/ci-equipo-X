@@ -15,6 +15,9 @@ app.get('/api/health', (req, res) => {
     res.json({ status: 'API en línea' });
 });
 
+// Rutas de productos
+app.use('/api/productos', require('./routes/productos'));
+
 // Iniciar servidor
 if (process.env.NODE_ENV !== 'test') {
     app.listen(PORT, () => {
