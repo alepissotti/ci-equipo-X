@@ -210,7 +210,7 @@ Push/PR
    ↓
 GitHub Actions Trigger
    ↓
-Setup Node.js (3 versiones)
+Setup Node.js (version 20.x)
    ↓
 npm install
    ↓
