@@ -75,7 +75,7 @@ Time:        ~2.8s
 
 ### 1. Clonar el repositorio
 ```bash
-git clone <url-repositorio>
+git clone https://github.com/alepissotti/ci-equipo-X.git
 cd ci-equipo-X
 ```
 
